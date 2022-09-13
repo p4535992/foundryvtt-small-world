@@ -1,0 +1,60 @@
+{
+    "name": "small-world",
+    "title": "Small World",
+    "description": "Translate the chat",
+    "author": "Admiral Nyar",
+    "version": "0.1.4",
+    "minimumCoreVersion": "9",
+    "compatibleCoreVersion": "9",
+    "scripts": [
+        "scripts/main.js"
+    ],
+    "styles":["styles/sm.css"],
+    "languages":[
+        {
+            "lang": "ja",
+            "name": "日本語",
+            "path": "lang/ja.json"
+        },
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        },
+        {
+            "lang" : "fr",
+            "name" : "Français",
+            "path" : "lang/fr.json"
+        },
+        {
+            "lang" : "es",
+            "name" : "Español",
+            "path" : "lang/es.json"
+        }, 
+        {
+            "lang": "de",
+            "name": "Deutsch",
+            "path": "lang/de.json"
+        },
+        {
+            "lang": "it",
+            "name": "Italiano",
+            "path": "lang/it.json"
+        },
+        {
+            "lang" : "zh-cn",
+            "name": "簡化字",
+            "path": "lang/zh-cn.json"
+        },
+        {
+            "lang": "sv",
+            "name": "Svenska",
+            "path": "lang/sv.json"
+        }
+    ],
+    "socket": true,
+    "url" : "https://github.com/AdmiralNyar/small-world",
+    "manifest" : "https://github.com/AdmiralNyar/small-world/raw/master/module.json",
+    "download" : "https://github.com/AdmiralNyar/small-world/archive/v0.1.4.zip",
+    "license" : "LICENSE"
+}
